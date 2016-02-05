@@ -1,0 +1,10 @@
+{
+  "name": "ethics-follies",
+  "version": "0.1.0",
+  "devDependencies": {
+
+  },
+  "files": [
+    "app.js"
+  ]
+}

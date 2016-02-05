@@ -1,0 +1,70 @@
+<div ng-controller="AwardsCtrl">
+
+  <section>
+    <h1>
+      <img class="awards-logo" src="images/award.jpg" title="Ethical Life Awards logo"/>
+    </h1>
+    <h3>
+      Recognizing the value of ethics in law and business
+    </h3>
+
+    <div class="triple-column">
+      <p>
+        Click <a
+          analytics-on="click"
+          analytics-event="{{resources['nominationForm'].event}}"
+          href="{{resources['nominationForm'].url}}">here
+        </a> to download the rules and nomination form.
+      </p>
+
+      <p>
+        The Eighth Annual Ethical Life Awards will honor one in-house lawyer or legal department and one private lawyer or law firm that exemplified ideal or exceptionally ethical behavior in the practice of law.
+      </p>
+
+      <p>
+        Nominations can be made by anyone with personal knowledge of the nominee&#8217;s commitment to ethical conduct.
+        <span ng-if="!!show">
+          The awards will be presented during the 7 p.m. show's intermission.
+        </span>
+        <span ng-if="!show">
+          The awards are presented each year during intermission of the evening performance.
+        </span>
+      </p>
+
+      <p>
+        The judges who selected the Ethical&nbsp;Life&nbsp;Awards recipients for 2012 unanimously voted to change the name of the awards to &ldquo;The Lee Cusenbary Ethical Life Award&rdquo; in recognition of Lee&#8217;s commitment to ethics in the San Antonio Community and his efforts in writing Ethics Follies each year.
+      </p>
+    </div>
+  </section>
+
+  <p>The following is a list of recipients of the Award:</p>
+
+  <div>
+    <div class="image-with-caption">
+      <img src="images/accept.jpg"/>
+      <div>
+        NuStar&#8217;s General Counsel, Brad Barron, accepted the first Ethical Life Award in 2008, presented by San Antonio&#8217;s former mayor, Phil&nbsp;Hardberger, and Texas Fourth Court Justice Sandee&nbsp;Bryan&nbsp;Marion.
+      </div>
+    </div>
+  </div>
+
+  <table class="awards">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>In-house Recipient</th>
+        <th>Private lawyer/law firm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="award in awards">
+        <td>{{award.year}}</td>
+        <td>{{award.inhouse}}</td>
+        <td>{{award.firm}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="clear:both"></div>
+
+</div>

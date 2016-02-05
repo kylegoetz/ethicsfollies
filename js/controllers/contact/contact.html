@@ -1,0 +1,6 @@
+<div ng-controller="ContactCtrl">
+  <p>Let us know which ethics issues you would like to see parodied, if you
+    have a nomination for The Ethical Life Award, would like a DVD to show to
+    your organization or have any questions. Thanks!
+  </p>
+  <p>For this or any other inquiry, please contact {{contact.title}}, {{contact.name}}, at <a angular-event="Dial: {{clickablePhone}}" href="tel:{{clickablePhone}}">{{contact.phoneNumber}}</a> or via e-mail by clicking <a angular-event="E-mail: {{contact.email}}" href="mailto:{{contact.email}}">here</a>.

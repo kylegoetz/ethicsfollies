@@ -1,0 +1,26 @@
+<h4>2015 Schedule</h4>
+<table class="awards" style="width:100%">
+  <thead>
+    <tr>
+      <td>Date</td>
+      <td>Event</td>
+      <td>Location</td>
+      <td>Notes</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="perf in performances">
+      <td ng-bind="perf.date"></td>
+      <td ng-bind="perf.event"></td>
+      <td ng-bind="perf.location">
+        <map-address
+          name="perf.name"
+          street="perf.street"
+          city="perf.city"
+          state="perf.state"
+          zip="perf.zip"  />
+      </td>
+      <td ng-bind="perf.notes"/>
+    </tr>
+  </tbody>
+</table>

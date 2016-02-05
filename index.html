@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <script>
+    if(  document.location.href.split('#/')[1] === '' && document.location.href.split('#/').length == 2  ) {
+      window.location.replace('http://localhost');
+    }
+  </script>
+
+  <link rel="stylesheet" href="resources/animate.css"/>
+  <link rel="stylesheet" href="resources/fullPage.js-master/jquery.fullPage.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/navbar.css"/>
+  <link rel="stylesheet" href="resources/swipebox-master/src/css/swipebox.css"/>
+  <link rel="stylesheet" href="resources/fonts/Quicksand/stylesheet.css"/>
+  <link rel="stylesheet" href="resources/fonts/Liberation-Serif/liberationserif_bold_macroman/stylesheet.css"/>
+  <link rel="stylesheet" href="resources/fonts/Liberation-Serif/liberationserif_regular_macroman/stylesheet.css"/>
+  <link rel="stylesheet" href="resources/fonts/Colaborate/colaborate_light_macroman/stylesheet.css"/>
+  <link rel="stylesheet" href="resources/fonts/Colaborate/colaborate_medium_macroman/stylesheet.css"/>
+  <link rel="stylesheet" href="resources/fonts/Colaborate/colaborate_regular_macroman/stylesheet.css"/>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="resources/fullPage.js-master/jquery.fullPage.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/forms-angular/dist/forms-angular.js"></script>
+  <script src="bower_components/angular-elastic/elastic.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/angulartics/src/angulartics.js"></script>
+  <script src="bower_components/angulartics/src/angulartics-ga.js"></script>
+  <script src="bower_components/angulartics/src/angulartics-piwik.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="resources/swipebox-master/src/js/jquery.swipebox.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/controllers/header/header.js"></script>
+  <script src="js/controllers/home/home.js"></script>
+  <script src="js/controllers/sponsors/sponsors.js"></script>
+  <script src="js/controllers/visuals/visuals.js"></script>
+  <script src="js/controllers/awards/awards.js"></script>
+  <script src="js/controllers/buy/buy.js"></script>
+  <script src="js/controllers/contact/contact.js"></script>
+  <script src="js/controllers/schedule/schedule.js"></script>
+
+  <script src="js/directives/angled-navbar.js"></script>
+  <script src="js/directives/swipebox.js"></script>
+  <script src="js/directives/address.js"></script>
+
+  <script src="js/services/api.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59447878-1', 'auto');
+  </script>
+
+  <script src="js/onload.js"></script>
+
+  <title>Ethics Follies</title>
+</head>
+<body>
+  <div id="fullpage" class="fullpage-wrapper">
+    <div class="section landing-page">
+      <img src="images/coty.png" alt="ACC Chapter of the Year, 2006, 2010, 2013" style="position:fixed;top:0;right:0;height:250px"/>
+
+      <div id="logo">
+        <img class="initial-state animated" src="images/scamalot-logo.png">
+      </div>
+      <div class="next-page-indicator glyphicon glyphicon-menu-down animated"></div>
+    </div>
+    <div id="main" class="page-two section" ng-app="folliesApp" style="background-image:url('{{logo.url}}');">
+      <!--img id="follies-logo" src="/images/follies-logo.png"-->
+      <header ng-controller="HeaderCtrl" >
+        <angled-navbar
+          brand="brand"
+          menus="menus"
+          header="header"
+          navfn="navfn(action)"
+          affixed="affixed">
+        </angled-navbar>
+    	</header>
+      <div class="content" ui-view></div>
+      <footer>
+    		<div>
+          <!--a href="#" target="_blank"><img style="width:10%;float:left;" src="images/acc-logo-2.png" alt="Association of Corporate Counsel logo"/></a-->
+          Ethics Follies&reg; is the registered U.S. trademark of Lee Cusenbary and is licensed exclusively to
+    			The Association of Corporate Counsel, South/Central Texas Chapter (ACC). &copy; 2014 Lee Cusenbary, ACC, and respective photographers and videographers. All rights reserved.
+          A special thank you to <a target="_blank" href="http://www.lemmingswalk.com/">Howard Marshburn</a> for providing many of the highest quality images on the site.
+    		</div>
+    	</footer>
+    </div>
+  </div>
+
+  <script>
+    $('button[href]').each(function(){
+      var href = $(this).attr('href');
+      $(this).click(function(e){
+        e.preventDefault();
+        window.location.href = href;
+      });
+    });
+  </script>
+  <script src="js/preloader.js"></script>
+
+
+</body>
+</html>

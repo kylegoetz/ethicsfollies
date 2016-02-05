@@ -1,0 +1,37 @@
+<div ng-controller="BuyCtrl">
+  <div class="subheader">
+    <img src="images/scamalot-logo.png" alt="Scamalot and Follies Logo">
+  </div>
+  <p>
+    Individual registration and $1,500 table sponsorships (for eight) are
+    available online. You can save ${{registration.early.discount}} off the CLE
+    fee by registering on or before {{registration.early.date}}. Click either
+    day for ${{registration.nonCleFee}} non-CLE registration.
+    The links below will be activated {{registration.openDate}} for you to register.
+    If you register for CLE and attend, you will earn {{registration.cleHours}}
+    hours of CLE credit.
+  </p>
+  <div class="showGroup">
+    <div ng-repeat="show in registration.shows" class="show-panel">
+      <h3>{{show.date}}</h3>
+      <h4>{{show.time}}</h4>
+      <p ng-if="show.index == 2">
+        With <em>Lee Cusenbary Ethical Life Awards</em> and a catered, open bar networking reception.
+      </p>
+      CLE fee: ${{show.cleFee}}
+      <a class="btn btn-default btn-sm" href="{{show.url}}" analytics-on="click" analytics-event="Register for {{show.date}}">Buy</a>
+    </div>
+    <div class="show-panel show-panel-2">
+      <img src="images/registration.jpg" style="width:100%" alt="Registration in costume"/>
+    </div>
+  </div>
+  <p>
+    To sponsor this conference, to reserve your table for eight, or to register
+    your organization as a participant, please call {{contact.title}} {{contact.name}}
+    at {{contact.phoneNumber}} or click <a analytics-event="E-mail: {{contact.email}}" target="_blank" href="mailto:{{contact.email}}">here</a>
+    to contact by e-mail.
+  </p>
+  <p>
+    You can read more about sponsorship and its benefits by clicking <a analytics-event="Download: Sponsorship brochure" target="_blank" href="resources/sponsorship.pdf">here</a>.
+  </p>
+</div>
