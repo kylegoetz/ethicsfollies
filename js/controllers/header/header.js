@@ -5,8 +5,8 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
   };
 
   $rootScope.show = {
-    name: 'Scamalot',
-    secondShowDate: 'October 29, 2015'
+    name: 'Chicago',
+    secondShowDate: 'October 6, 2016'
   };
 
   $rootScope.visitFacebook = function() {
@@ -46,17 +46,6 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
           title: 'Schedule',
           action: 'schedule'
         }
-        /*{
-          title: 'History',
-          action: 'about.history'
-        },*/
-        /*{
-          divider: true
-        },
-        {
-          title: 'Contact Us',
-          action: 'about.contact'
-        }*/
       ]
     },
     {
@@ -71,7 +60,7 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
         $state.go('home');
         break;
       case 'sponsors':
-        $state.go('sponsors', {year:'2014'});
+        $state.go('sponsors', {year:'2015'});
         break;
       case 'about.visuals':
         //$location.url('/visuals');

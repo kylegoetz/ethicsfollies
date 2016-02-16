@@ -2,7 +2,7 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
   //var year = $state.params.year;
   //if(  typeof year === 'undefined'  ) $scope.year = new Date().getFullYear();
   //else $scope.year = year;
-  $scope.year = '2014';
+  $scope.year = '2015';
 
   $rootScope.logo = {
     url: 'images/dancers.jpg',
@@ -46,19 +46,9 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
     {
       type: 'Producer',
       sponsors: [
-        {"name":"Cox Smith"},
-        {"name":"Enterprise Rent-a-Car"},
+        {"name":"Dykema Cox Smith"},
         {"name":"Mission Pharmacal Company"},
         {"name":"San Antonio Bar Foundation"},
-        {"name":"Woodlawn Theatre"},
-        {"name":"Playhouse of San Antonio"}
-      ]
-    },
-    {
-      type: "Media",
-      "sponsors": [
-        {"name":"San Antonio Business Journal"},
-        {"name":"Texas Lawyer"}
       ]
     },
     {
@@ -69,43 +59,55 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
       ]
     },
     {
+      type: "Media",
+      "sponsors": [
+        {"name":"San Antonio Business Journal"},
+        {"name":"Texas Lawyer"}
+      ]
+    },
+    {
       "type": "Table",
       "sponsors": [
-        {"name":"Attorneys of the Ariel House"},
-        {"name":"Barton East & Caldwell"},
-        {"name":"Billing Services Group"},
-        {"name":"Daffer McDaniel"},
-        {"name":"CPS Energy"},
-        {"name":"Crouch & Ramey"},
+        {name:'Brock Person Guerra Reyna'},
+        {name:'CPS Energy'},
+        {name:'Crouch & Ramey, LLP'},
+        {name:'Fisher & Phillips'},
         {"name":"Haynes and Boone"},
         {"name":"HEB"},
-        {"name":"Judges for CJP"},
         {
           "name":"Hoblit Ferguson Darling LLP",
-          "url": "http://www.hfdlaw.com/index.cfm"
+          //"url": "http://www.hfdlaw.com/index.cfm"
         },
-        {"name":"LexisNexis"},
+        {name:'ISS Facility Services'},
+        {"name":"Judges for CJP"},
+        {"name":"LexisNexis CounselLink"},
+        {name:'NuStar Energy L.P.'},
         {"name":"Propel Financial Services"},
-        {"name":"Pulman, Cappuccio, Pullen Benson & Jones"},
         {"name":"Rackspace"},
         {"name":"Security Services Federal Credit Union"},
-        {"name":"South Texas Money Management, Ltd."},
-        {"name":"Southwest Research Institute"},
-        {"name":"St. Mary's University School of Law"},
         {"name":"Strasburger Price Oppenheimer Blend"},
         {"name":"USAA"},
         {"name":"Whataburger"},
-        {"name":"Zachry Holdings, Inc."}
+        {"name":"Zachry Industrial Inc."},
+        {name:'Attorneys of Ariel House'},
+        {name:'Branscomb PC'},
+        {name:'Pulman, Cappuccio, Pullen, Benson & Jones, LLP.'},
+        {name:'Southwest Research Institute'},
+        {name:'Ogletree, Deakins, Nash, Smoak & Stewart, P.C.'}
       ]
+    },
+    {
+      type: 'Costume',
+      sponsors: [{
+        name: 'Daffer McDaniel LLP'
+      }]
     },
     {
       "type": "Snack/Intermission",
       "sponsors": [
-        {"name":"Cacheaux, Cavazos & Newton"},
-        {"name":"Lone Star Bakery"},
-        {"name":"Midnight Rodeo"},
-        {"name":"Tiago's Cabos Grille"},
-        {"name":"Branscomb PC"}
+        {name: 'Kim Tindall & Associates'},
+        {name: 'Preferred Counsel'},
+        {name: 'Midnight Rodeo'}
       ]
     }
   ];

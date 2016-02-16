@@ -15,6 +15,11 @@ folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $r
 
   $scope.awards = [
     {
+      year: 2015,
+      inhouse: 'Carlos Peña (Pioneer Energy Services Corp.)',
+      firm: 'Dan Webster (Dykema Cox Smith)'
+    },
+    {
       year: 2014,
       inhouse: 'Rebecca Simmons (KCI)',
       firm: 'Charles L. Smith (Jackson Walker)'

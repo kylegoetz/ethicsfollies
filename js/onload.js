@@ -13,9 +13,9 @@ function applyAnim(sel, x) {
   $(sel).addClass(x);
 }
 $(function(){
-  setTimeout(function(){applyAnim('#logo img','hinge');}, 2000);
+  //setTimeout(function(){applyAnim('#logo img','hinge');}, 2000);
   setTimeout(function(){
     //document.getElementById('main').scrollIntoView();
     $.fn.fullpage.moveSectionDown();
-  }, 3000);
+  }, 6000);
 });
