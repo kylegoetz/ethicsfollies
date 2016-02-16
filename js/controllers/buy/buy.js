@@ -10,24 +10,24 @@ folliesApp.controller('BuyCtrl',['$rootScope','$scope','$modal','$window',functi
   $scope.registration = {
     cleHours: 2,
     early: {
-      date: 'October 1, 2015',
+      date: 'September 16, 2016',
       discount: 10
     },
     nonCleFee: 20,
-    openDate: 'April 26, 2015',
+    openDate: 'February 15, 2016',
     shows: [
       {
         index: 1,
-        date: 'October 28, 2015',
-        time: '2–4:30pm',
-        url: 'https://www.regonline.com/ethicsfolliesSCAMAlotMatinee',
+        date: 'October 5, 2016',
+        time: '3:30–5:30pm',
+        url: 'https://www.regonline.com/Register/Checkin.aspx?EventID=1814542',
         cleFee: 70
       },
       {
         index: 2,
-        date: 'October 29, 2015',
+        date: 'October 6, 2016',
         time: '7–9:30pm',
-        url: 'https://www.regonline.com/ethicsfolliesSCAMAlotEvening',
+        url: 'https://www.regonline.com/Register/Checkin.aspx?EventID=1814568',
         cleFee: 90
       }
     ]
