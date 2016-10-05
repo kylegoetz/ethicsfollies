@@ -46,9 +46,9 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
     {
       type: 'Producer',
       sponsors: [
-        {"name":"Dykema Cox Smith"},
-        {"name":"Mission Pharmacal Company"},
-        {"name":"San Antonio Bar Foundation"},
+        {"name":"Mission Pharmacal"},
+        {"name":"San Antonio Bar Association"},
+				{"name":"Dykema Cox Smith"}
       ]
     },
     {
@@ -58,56 +58,50 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
         {"name":"Norton Rose Fulbright"}
       ]
     },
-    {
-      type: "Media",
-      "sponsors": [
-        {"name":"San Antonio Business Journal"},
-        {"name":"Texas Lawyer"}
-      ]
-    },
+		{
+			type: "Costume/Backdrops",
+			sponsors: [
+				{name: 'Cronin PLLC'}
+			]
+		},
     {
       "type": "Table",
       "sponsors": [
+				{name: 'Attorneys of the Ariel House'},
+				{name: 'Brenna & Alex Nava'},
         {name:'Brock Person Guerra Reyna'},
+				{name: 'Cokinos, Bosien & Young'},
         {name:'CPS Energy'},
-        {name:'Crouch & Ramey, LLP'},
         {name:'Fisher & Phillips'},
-        {"name":"Haynes and Boone"},
+        {"name":"Haynes & Boone"},
         {"name":"HEB"},
-        {
-          "name":"Hoblit Ferguson Darling LLP",
-          //"url": "http://www.hfdlaw.com/index.cfm"
-        },
         {name:'ISS Facility Services'},
         {"name":"Judges for CJP"},
-        {"name":"LexisNexis CounselLink"},
-        {name:'NuStar Energy L.P.'},
-        {"name":"Propel Financial Services"},
-        {"name":"Rackspace"},
-        {"name":"Security Services Federal Credit Union"},
-        {"name":"Strasburger Price Oppenheimer Blend"},
+				{name: 'Kilpatrick Townsend'},
+				{name: 'Langley & Banack'},
+				{name: 'LexisNexis CounselLink'},
+				{name: 'NuStar Energy'},
+				{name: 'Schmoyer Reinhard LLP'},
+        {"name":"Security Service Federal Credit Union"},
+				{name: 'Southwest Research Institute'},
         {"name":"USAA"},
         {"name":"Whataburger"},
-        {"name":"Zachry Industrial Inc."},
-        {name:'Attorneys of Ariel House'},
-        {name:'Branscomb PC'},
-        {name:'Pulman, Cappuccio, Pullen, Benson & Jones, LLP.'},
-        {name:'Southwest Research Institute'},
-        {name:'Ogletree, Deakins, Nash, Smoak & Stewart, P.C.'}
+				{name: 'Zachry Group'},
+				{name: 'Rackspace'}
       ]
     },
+		{
+			type: '1/2 Table',
+			sponsors: [
+				{name: 'Pulman, Cappuccio, Pullen, Benson & Jones, LLP'}
+			]
+		},
     {
-      type: 'Costume',
-      sponsors: [{
-        name: 'Daffer McDaniel LLP'
-      }]
-    },
-    {
-      "type": "Snack/Intermission",
+      "type": "Snacks",
       "sponsors": [
-        {name: 'Kim Tindall & Associates'},
-        {name: 'Preferred Counsel'},
-        {name: 'Midnight Rodeo'}
+				{name: 'HEB'},
+				{name: 'Midnight Rodeo'},
+        {name: 'Kim Tindall & Associates'}
       ]
     }
   ];
