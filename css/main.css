@@ -519,3 +519,15 @@ footer a {
     text-align: center;
   }
 }
+
+.text-wall {
+	width: 40%;
+	margin: auto;
+	padding-bottom: 1em;
+}
+
+.sponsor-group {
+	break-inside: avoid;
+	page-break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+}
