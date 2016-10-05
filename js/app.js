@@ -49,6 +49,11 @@ folliesApp.config(['$stateProvider', '$analyticsProvider', '$urlRouterProvider',
       url: '/schedule',
       templateUrl: 'js/controllers/schedule/schedule.html',
       controller: 'ScheduleCtrl'
+    })
+    .state('mission', {
+      url: '/mission',
+      templateUrl: 'js/controllers/mission/mission.html',
+      controller: 'MissionCtrl'
     });
 }]);
 

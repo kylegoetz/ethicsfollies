@@ -6,6 +6,7 @@
     'images/flippers.jpg',
     'images/ursula-lair.jpg',
     'images/dancers.jpg',
+    'images/carousel/Tele%20Ethics%20Follies%202012_3071.jpg',
     'images/carousel/2011 Ethics Follies_0194.jpg',
     'images/carousel/2011 Ethics Follies_0388.jpg',
     'images/carousel/2011 Ethics Follies_0478.jpg',

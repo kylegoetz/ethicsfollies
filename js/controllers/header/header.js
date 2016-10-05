@@ -45,6 +45,10 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
         {
           title: 'Schedule',
           action: 'schedule'
+        },
+        {
+          title: 'Mission',
+          action: 'mission'
         }
       ]
     },
@@ -56,31 +60,29 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
   $scope.navfn = function(action) {
     switch(action) {
       case 'home':
-        //$location.url('/');
         $state.go('home');
         break;
       case 'sponsors':
         $state.go('sponsors', {year:'2015'});
         break;
       case 'about.visuals':
-        //$location.url('/visuals');
         $state.go('visuals');
         break;
       case 'about.awards':
-        //$location.url('/awards');
         $state.go('awards');
         break;
       case 'about.history':
         break;
       case 'about.contact':
-        //$location.url('/contact');
         $state.go('contact');
         break;
       case 'schedule':
         $state.go('schedule');
         break;
+      case 'mission':
+        $state.go('mission');
+        break;
       case 'buy':
-        //$location.url('/buy');
         $state.go('buy');
         break;
     }
