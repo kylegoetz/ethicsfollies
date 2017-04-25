@@ -2,7 +2,7 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
   //var year = $state.params.year;
   //if(  typeof year === 'undefined'  ) $scope.year = new Date().getFullYear();
   //else $scope.year = year;
-  $scope.year = '2015';
+  $scope.year = '2016';
 
   $rootScope.logo = {
     url: 'images/dancers.jpg',
