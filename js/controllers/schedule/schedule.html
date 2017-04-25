@@ -11,8 +11,8 @@
   </thead>
   <tbody>
     <tr ng-repeat="perf in performances">
-      <td ng-bind="perf.date"></td>
-      <td ng-bind="perf.event"></td>
+      <td ng-bind="perf.date" style="white-space:nowrap"></td>
+      <td ng-bind="perf.event" style="white-space:nowrap"></td>
       <td ng-bind="perf.location">
         <map-address
           name="perf.name"
