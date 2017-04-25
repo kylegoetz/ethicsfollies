@@ -1,5 +1,5 @@
 .htaccess
-bower_components/
+bower_components/*
 stats
 *.bak
 cgi
