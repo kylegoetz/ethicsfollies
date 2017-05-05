@@ -1,6 +1,6 @@
 folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
   $rootScope.logo = {
-    url: 'images/20131113_0440.jpg',
+    url: 'images/Act I Scene 10_11_Scamalot_2015_0008.jpg',
     bgcolor: '',
     halign: 'center',
     valign: 'top',

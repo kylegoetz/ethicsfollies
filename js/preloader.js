@@ -25,6 +25,7 @@
     'images/carousel/2013-dontstop.jpg',
     'images/carousel/20131113_0440.jpg',
     'images/carousel/20131113_2253.jpg',
+	'images/Act I Scene 10_11_Scamalot_2015_0008.jpg',
     'images/carousel/Act II_Scene 1_03.jpg',
     'images/carousel/Act II_Scene 2_16.jpg',
     'images/carousel/Act II_Scene 5_04.jpg',
