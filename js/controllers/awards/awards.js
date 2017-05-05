@@ -14,6 +14,11 @@ folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $r
   };
 
   $scope.awards = [
+	  {
+		  year: 2016,
+		  inhouse: 'Colleen M. Goff (posthumous)',
+		  firm: 'Andrew L. Kerr'
+	  },
     {
       year: 2015,
       inhouse: 'Carlos Peña (Pioneer Energy Services Corp.)',
