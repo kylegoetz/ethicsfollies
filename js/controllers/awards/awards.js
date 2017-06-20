@@ -8,7 +8,7 @@ folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $r
   };
   $scope.resources = {
     'nominationForm': {
-      url: 'resources/award-nomination-2016.pdf',
+      url: 'resources/award-nomination-2017.pdf',
       event: 'Download: Ethical Life Awards Nomination Application'
     }
   };
