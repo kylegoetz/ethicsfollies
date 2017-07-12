@@ -51,6 +51,11 @@ header i {
 	z-index: 1;
 }
 
+.quick-buy {
+	border: 2px solid white;
+	border-radius: 4px;
+}
+
 .content::after {
 	content: '';
 	background: url('/images/denim.png') repeat;

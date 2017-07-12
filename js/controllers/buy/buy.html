@@ -15,15 +15,7 @@
     hours of CLE credit.
   </p>
   <div class="showGroup">
-    <div ng-repeat="show in registration.shows" class="show-panel">
-      <h3>{{show.date}}</h3>
-      <h4>{{show.time}}</h4>
-      <p ng-if="show.index == 2">
-        With <em>Lee Cusenbary Ethical Life Awards</em> and a catered, open bar networking reception.
-      </p>
-      CLE fee: ${{show.cleFee}}
-      <a class="btn btn-default btn-sm" href="{{show.url}}" analytics-on="click" analytics-event="Register for {{show.date}}">Buy</a>
-    </div>
+	  <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box>
     <div class="show-panel show-panel-2">
       <img src="images/registration.jpg" style="width:100%" alt="Registration in costume"/>
     </div>

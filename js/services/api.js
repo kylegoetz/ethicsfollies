@@ -1,7 +1,15 @@
 folliesApp.service('apiService',['$http', '$q', function($http, $q){
   return({
+	  getRegistrationInfo: getRegistrationInfo,
     getSponsors: getSponsors
   });
+
+	function getRegistrationInfo() {
+		return $http.get('/resources/registration.json')
+		.then(function(response){
+			return response.data;
+		});
+	}
 
   function getSponsors(year) {
     var request = $http({
