@@ -12,12 +12,10 @@ folliesApp.service('apiService',['$http', '$q', function($http, $q){
 	}
 
   function getSponsors(year) {
-    var request = $http({
-      method: 'get',
-      url: 'api/v1/sponsors/'+year,
-      responseType: 'json'
+    return $http.get('/resources/sponsors.json')
+    .then(function(response) {
+        return response.data[year];
     });
-    return(  request.then(handleSuccess, handleError)  );
   }
 
   function handleSuccess(response) {
