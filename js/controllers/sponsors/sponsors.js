@@ -1,5 +1,5 @@
 folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiService', function($rootScope,$scope,apiService){
-    $scope.year = '2016';
+    $scope.year = '2017';
 
   $rootScope.logo = {
     url: 'images/dancers.jpg',

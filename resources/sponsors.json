@@ -3,81 +3,78 @@
 		{
 			"type": "Community Leader",
 			"sponsors": [
-				{
-					"name": "USAA"
-				},
-				{
-					"name": "Valero"
-				}
+				{"name": "USAA"},
+				{"name": "Valero"}
 			]
 		},
 		{
-			"type": "Reception",
+			"type": "Evening Reception",
 			"sponsors": [
-				{
-					"name": "Frost Bank"
-				}
+				{"name": "Frost Bank"}
+			]
+		},
+		{
+			"type": "Matinee Reception",
+			"sponsors": [
+				{"name": "BKD Forensics"}
 			]
 		},
 		{
 			"type": "Producer",
 			"sponsors": [
-				{"name":"Mission Pharmacal"},
-				{"name":"San Antonio Bar Association"},
-				{"name":"Dykema Cox Smith"}
+				{"name":"Dykema Cox Smith"},
+				{"name":"Mission Pharmacal"}
+			]
+		},
+		{
+			"type": "Pies",
+			"sponsors": [
+				{"name": "Lone Star Bakery"}
 			]
 		},
 		{
 			"type": "Playbill",
 			"sponsors": [
 				{"name":"Jackson Walker"},
-				{"name":"Norton Rose Fulbright"}
+				{"name":"Norton Rose Fulbright"},
+				{"name":"San Antonio Bar Association"}
 			]
 		},
 		{
-			"type": "Costume/Backdrops",
+			"type": "Costume and Backdrops",
 			"sponsors": [
-				{"name": "Cronin PLLC"}
+				{"name": "Cubeta Clarke"},
+				{"name":"Whataburger"}
 			]
 		},
 		{
 			"type": "Table",
 			"sponsors": [
+				{"name":"Andeavor"},
 				{"name": "Attorneys of the Ariel House"},
-				{"name": "Brenna & Alex Nava"},
-				{"name":"Brock Person Guerra Reyna"},
-				{"name": "Cokinos, Bosien & Young"},
+				{"name":"Brad Carson | Kruger Carson PLLC"},
+				{"name": "Cokinos Young"},
+				{"name":"Cronin PLLC"},
 				{"name":"CPS Energy"},
-				{"name":"Fisher & Phillips"},
 				{"name":"Haynes & Boone"},
 				{"name":"HEB"},
-				{"name":"ISS Facility Services"},
+				{"name":"Hoblit Darling Ralls Hernandez & Hudlow LLP"},
 				{"name":"Judges for CJP"},
 				{"name": "Kilpatrick Townsend"},
 				{"name": "Langley & Banack"},
-				{"name": "LexisNexis CounselLink"},
+				{"name": "LexisNexis"},
 				{"name": "NuStar Energy"},
-				{"name": "Schmoyer Reinhard LLP"},
+				{"name":"Ogletree Deakins"},
+				{"name": "Rackspace"},
 				{"name":"Security Service Federal Credit Union"},
-				{"name": "Southwest Research Institute"},
-				{"name":"USAA"},
-				{"name":"Whataburger"},
-				{"name": "Zachry Group"},
-				{"name": "Rackspace"}
+				{"name": "Zachry Group"}
 			]
 		},
 		{
 			"type": "1/2 Table",
 			"sponsors": [
-				{"name": "Pulman, Cappuccio, Pullen, Benson & Jones, LLP"}
-			]
-		},
-		{
-			"type": "Snacks",
-			"sponsors": [
-				{"name": "HEB"},
-				{"name": "Midnight Rodeo"},
-				{"name": "Kim Tindall & Associates"}
+				{"name": "James Avery"},
+				{"name":"SwRI"}
 			]
 		}
 	],
