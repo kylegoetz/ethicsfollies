@@ -56,6 +56,7 @@
 				{"name": "Cokinos Young"},
 				{"name":"Cronin PLLC"},
 				{"name":"CPS Energy"},
+				{"name": "Sara E. Dysart"},
 				{"name":"Haynes & Boone"},
 				{"name":"HEB"},
 				{"name":"Hoblit Darling Ralls Hernandez & Hudlow LLP"},
@@ -66,6 +67,15 @@
 				{"name": "NuStar Energy"},
 				{"name":"Ogletree Deakins"},
 				{"name": "Rackspace"},
+				{"name": "Rackspace"},
+				{
+					"name": "Rojas Law Firm",
+					"url": "http://aidarojaslaw.com"
+				},
+				{
+					"name": "Schmoyer Reinhard",
+					"url": "http://sr-llp.com"
+				},
 				{"name":"Security Service Federal Credit Union"},
 				{"name": "Zachry Group"}
 			]
@@ -75,6 +85,15 @@
 			"sponsors": [
 				{"name": "James Avery"},
 				{"name":"SwRI"}
+			]
+		},
+		{
+			"type": "Snacks",
+			"sponsors": [
+				{
+					"name": "Kim Tindall & Associates",
+					"url": "https://kimtindallandassociates.com"
+				}
 			]
 		}
 	],
