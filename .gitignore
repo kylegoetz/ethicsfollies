@@ -1,4 +1,3 @@
-.htaccess
 bower_components/*
 stats
 *.bak
