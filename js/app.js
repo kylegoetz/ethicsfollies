@@ -7,7 +7,12 @@ var folliesApp = angular.module('folliesApp',
     'angulartics.google.analytics',
     'angulartics.piwik',
     'ui.router'
-]);
+])
+.constant('currentShow', {
+  counter: '21st',
+  year: 2018,
+  title: 'Shyster Act',
+})
 
 var folliesControllers = angular.module('folliesControllers', []);
 
