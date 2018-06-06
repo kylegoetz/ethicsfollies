@@ -56,6 +56,7 @@
   <script src="js/directives/swipebox.js"></script>
   <script src="js/directives/address.js"></script>
   <script src="js/directives/buy-box.js"></script>
+  <script src="js/directives/fullpage.js"></script>
 
   <script src="js/services/api.js"></script>
 
@@ -68,21 +69,23 @@
     ga('create', 'UA-59447878-1', 'auto');
   </script>
 
-  <script src="js/onload.js"></script>
+  <!-- <script src="js/onload.js"></script> -->
 
   <title>Ethics Follies</title>
 </head>
-<body>
-  <div id="fullpage" class="fullpage-wrapper">
+<body ng-app="folliesApp">
+  <div full-page id="fullpage" class="fullpage-wrapper">
     <div class="section landing-page">
       <img src="images/coty.png" alt="ACC Chapter of the Year, 2006, 2010, 2013, 2015" style="position:fixed;top:0;right:0;height:250px"/>
 
       <div id="logo">
-        <!--img class="initial-state animated" src="images/logos/2017-Being-Walter-Decent" alt="Ethics Follies 2017: Being Walter Decent"-->
+        <!-- <img class="initial-state animated"
+          ng-src="/images/logos/current-show-poster.jpg"
+          alt="Ethics Follies"/> -->
       </div>
       <div class="next-page-indicator glyphicon glyphicon-menu-down animated"></div>
     </div>
-    <div id="main" class="page-two section" ng-app="folliesApp" style="background-image:url('{{logo.url}}');">
+    <div id="main" class="page-two section" ng-style="style">
       <!--img id="follies-logo" src="/images/follies-logo.png"-->
       <header ng-controller="HeaderCtrl" >
         <angled-navbar
