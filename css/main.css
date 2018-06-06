@@ -536,3 +536,7 @@ footer a {
 	page-break-inside: avoid;
 	-webkit-column-break-inside: avoid;
 }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
