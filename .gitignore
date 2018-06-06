@@ -10,3 +10,4 @@ npm-debug.log
 php.ini
 webformmailer.php
 */.DS_Store
+resources/award-nomination-form.pdf
