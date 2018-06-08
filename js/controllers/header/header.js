@@ -4,11 +4,6 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
     dvd: 100
   };
 
-  $rootScope.show = {
-    name: 'Chicago',
-    secondShowDate: 'October 6, 2016'
-  };
-
   $rootScope.visitFacebook = function() {
     $window.open('http://www.facebook.com/home.php#/pages/wwwethicsfolliescom/210046265244?v=wall');
   };
