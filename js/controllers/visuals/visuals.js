@@ -1,14 +1,6 @@
 folliesControllers.controller('VisualsCtrl',['$rootScope','$scope','$modal',function($rootScope,$scope,$modal){
   $scope.carouselIndex = 0;
 
-  $rootScope.logo = {
-    url: 'images/vita.jpg',
-    bgcolor: '',
-    halign: 'center',
-    valign: 'top',
-    cover: 'cover'
-  };
-
   $scope.links = [
     {
     	href: 'images/carousel/2011 Ethics Follies_0194.jpg',

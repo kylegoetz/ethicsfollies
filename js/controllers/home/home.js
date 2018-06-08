@@ -17,13 +17,6 @@
 			$scope.registration = data;
 		});
       $scope.clickablePhone = $scope.contact.phoneNumber.replace('-','').replace('(','').replace(')','');
-      $rootScope.logo = {
-        url: '/images/cochran.jpg',
-        bgcolor: '',
-        halign: 'center',
-        valign: 'top',
-        cover: 'cover'
-      };
     }
   }
 })();

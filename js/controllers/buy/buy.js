@@ -1,11 +1,5 @@
-folliesApp.controller('BuyCtrl',['$rootScope','$scope','$modal','$window', 'apiService',function($rootScope,$scope,$modal,$window, api){
-  $rootScope.logo = {
-    url: 'images/giveacode.jpg',
-    bgcolor: '',
-    halign: 'center',
-    valign: 'top',
-    cover: 'cover'
-  };
+folliesApp.controller('BuyCtrl',['$rootScope','$scope','$modal','$window', 'apiService', 'currentShow', function($rootScope,$scope,$modal,$window, api, currentShow){
+  $scope.currentShow = currentShow;
 
 	api.getRegistrationInfo().then(function(data){
 		$scope.registration = data;

@@ -3,17 +3,7 @@
     .module('folliesApp')
     .controller('ScheduleCtrl', schedule);
 
-  schedule.$inject = ['$scope', '$rootScope'];
-
-  function schedule($scope, $rootScope) {
-    $rootScope.logo = {
-      url: 'images/ursula-lair.jpg',
-      bgcolor: '',
-      halign: 'center',
-      valign: 'top',
-      cover: 'cover'
-    };
-
+  function schedule($scope, $rootScope, currentShow) {
     $scope.performances = [
 		{
 			date: 'May 5 (12pm)',

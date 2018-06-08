@@ -1,11 +1,4 @@
-folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
-  $rootScope.logo = {
-    url: 'images/Act I Scene 10_11_Scamalot_2015_0008.jpg',
-    bgcolor: '',
-    halign: 'center',
-    valign: 'top',
-    cover: 'cover'
-  };
+folliesApp.controller('AwardsCtrl', function($scope, $rootScope) {
   $scope.resources = {
     'nominationForm': {
       url: 'resources/award-nomination-form.pdf',
@@ -60,4 +53,4 @@ folliesApp.controller('AwardsCtrl', ['$scope', '$rootScope', function($scope, $r
       firm: 'George Spencer, Sr.'
     }
   ];
-}]);
+});
