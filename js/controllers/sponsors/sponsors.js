@@ -1,6 +1,8 @@
-folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiService', function($rootScope,$scope,apiService){
-    $scope.year = '2017';
+folliesControllers
+.controller('SponsorsCtrl', SponsorsCtrl);
 
+function SponsorsCtrl($rootScope,$scope,apiService, sponsorYear) {
+  $scope.year = sponsorYear;
 
   loadSponsors();
 
@@ -16,4 +18,4 @@ folliesControllers.controller('SponsorsCtrl', ['$rootScope','$scope', 'apiServic
   function applySponsors(data) {
     $scope.sponsors = data;
   }
-}]);
+}
