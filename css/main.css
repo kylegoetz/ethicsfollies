@@ -145,7 +145,7 @@ ul[rn-carousel] {
 }
 
 .thumbnail:after {
-	content: ' ',
+	content: ' ';
 	z-index: 10;
 	display: block;
 	position: absolute;
