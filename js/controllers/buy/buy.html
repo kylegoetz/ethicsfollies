@@ -2,20 +2,19 @@
   <div class="subheader">
     <img src="images/logos/current-show-poster.jpg" alt="{{currentShow.year}}: {{currentShow.title}}" style="border: 2px solid white;" />
   </div>
-  <p>
+  <!--p>
     Please check back soon for information about sponsorships and links to register for the CLE events.
-  </p>
+  </p-->
   <p>
     Individual registration and $1,500 table sponsorships (for eight) are
-    available online. You can save ${{registration.early.discount}} off the CLE
-    fee by registering on or before {{registration.early.date}}. Click either
+    available online. Click either
     day for ${{registration.nonCleFee}} non-CLE registration.
     The links below will be activated {{registration.openDate}} for you to register.
     If you register for CLE and attend, you will earn {{registration.cleHours}}
     hours of CLE credit.
   </p>
   <div class="showGroup">
-	  <!-- <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box> -->
+	  <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box>
     <div class="show-panel show-panel-2">
       <img src="images/registration.jpg" style="width:100%" alt="Registration in costume"/>
     </div>
