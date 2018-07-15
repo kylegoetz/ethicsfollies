@@ -7,6 +7,11 @@ folliesApp.controller('AwardsCtrl', function($scope, $rootScope) {
   };
 
   $scope.awards = [
+    {
+      year: 2017,
+      inhouse: 'Steve Waters (USAA Realco)',
+      firm: 'Sara Dysart'
+    },
 	  {
 		  year: 2016,
 		  inhouse: 'Colleen M. Goff (posthumous)',
