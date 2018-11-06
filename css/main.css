@@ -537,6 +537,13 @@ footer a {
 	-webkit-column-break-inside: avoid;
 }
 
+a.sponsor-url {
+	font-weight: bold;
+	color: #99f;
+	/* -webkit-text-stroke: 1px whitesmoke; */
+	/* -webkit-text-fill-color: blue; */
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }

@@ -1,73 +1,173 @@
 {
-	"2017": [
+	"2018": [
 		{
 			"type": "Community Leader",
 			"sponsors": [
-				{"name": "USAA"},
-				{"name": "Valero"}
+				{
+					"name": "USAA",
+					"url": "https://usaa.com"
+				},
+				{
+					"name": "Valero",
+					"url": "https://valero.com"
+				}
 			]
 		},
 		{
 			"type": "Evening Reception",
 			"sponsors": [
-				{"name": "Frost Bank"}
-			]
-		},
-		{
-			"type": "Matinee Reception",
-			"sponsors": [
-				{"name": "BKD Forensics"}
+				{
+					"name": "Frost Bank",
+					"url": "https://frostbank.com"
+				}
 			]
 		},
 		{
 			"type": "Producer",
 			"sponsors": [
-				{"name":"Dykema Cox Smith"},
-				{"name":"Mission Pharmacal"}
-			]
-		},
-		{
-			"type": "Pies",
-			"sponsors": [
-				{"name": "Lone Star Bakery"}
+				{
+					"name":"Dykema",
+					"url": "https://dykema.com"
+				}
 			]
 		},
 		{
 			"type": "Playbill",
 			"sponsors": [
-				{"name":"Jackson Walker"},
-				{"name":"Norton Rose Fulbright"},
-				{"name":"San Antonio Bar Association"}
+				{
+					"name":"Jackson Walker",
+					"url": "https://jw.com"
+				},
+				{
+					"name":"Norton Rose Fulbright",
+					"url": "http://nortonrosefulbright.com"
+				},
+				{
+					"name":"San Antonio Bar Association",
+					"url": "https://sanantoniobar.org"
+				}
 			]
 		},
 		{
 			"type": "Costume and Backdrops",
 			"sponsors": [
-				{"name": "Cubeta Clarke"},
-				{"name":"Whataburger"}
+				{
+					"name":"Whataburger",
+					"url": "https://whataburger.com"
+				}
 			]
 		},
 		{
 			"type": "Table",
 			"sponsors": [
-				{"name":"Andeavor"},
-				{"name": "Attorneys of the Ariel House"},
-				{"name":"Brad Carson | Kruger Carson PLLC"},
-				{"name": "Cokinos Young"},
-				{"name":"Cronin PLLC"},
-				{"name":"CPS Energy"},
-				{"name": "Sara E. Dysart"},
-				{"name":"Haynes & Boone"},
-				{"name":"HEB"},
-				{"name":"Hoblit Darling Ralls Hernandez & Hudlow LLP"},
-				{"name":"Judges for CJP"},
-				{"name": "Kilpatrick Townsend"},
-				{"name": "Langley & Banack"},
-				{"name": "LexisNexis"},
-				{"name": "NuStar Energy"},
-				{"name":"Ogletree Deakins"},
-				{"name": "Rackspace"},
-				{"name": "Rackspace"},
+				{ "name": "Cronin PLLC", "url": "https://croninpllc.com" },
+				{ "name":"Allan Nava Glander", "url": "http://anglawfirm.com" },
+				{ "name":"Cokinos Young", "url": "https://cokinoslaw.com" },
+				{ "name":"CPS Energy", "url": "https://cpsenergy.com" },
+				{ "name":"Cubeta Clarke", "url": "https://cubetaclarke.com" },
+				{ "name":"Haynes & Boone", "url": "https://haynesboone.com" },
+				{ "name":"HEB", "url": "https://heb.com" },
+				{ "name":"Hoblit Darling Ralls Hernandez & Hudlow LLP", "url": "https://hdr-law.com" },
+				{ "name":"Judges for CJP" },
+				{ "name":"Kilpatrick Townsend", "url": "http://kilpatricktownsend.com" },
+				{ "name":"Langley & Banack", "url": "https://langleybanack.com" },
+				{ "name":"LexisNexis", "url": "https://lexisnexis.com" },
+				{ "name":"Marathon Petroleum", "url": "http://andeavor.com" },
+				{ "name":"NuStar Energy", "url": "http://nustarenergy.com" },
+				{ "name":"Ogletree Deakins", "url": "https://ogletreedeakins.com" },
+				{ "name":"Plunk Smith", "url": "https://plunksmith.com" },
+				{ "name":"Rackspace", "url": "https://rackspace.com" },
+				{ "name":"Rush Enterprises", "url": "http://rushenterprises.com" },
+				{ "name":"Security Services Federal Credit Union", "url": "https://ssfcu.org" },
+				{ "name":"Seyfarth Shaw", "url": "https://seyfarth.com" },
+				{ "name":"SwRI", "url": "https://swri.org" },
+				{ "name":"Zachry Group", "url": "https://zachrygroup.com" }
+			]
+		},
+		{
+			"type": "1/2 Table",
+			"sponsors": [
+				{ "name":"James Avery", "url": "https://jamesavery.com" }
+			]
+		},
+		{
+			"type": "Snacks",
+			"sponsors": [
+				{ "name":"Confidential Search Solutions", "url": "https://confidentialsearchsolutions.com" },
+				{ "name":"Kim Tindall & Associates", "url": "https://kimtindallandassociates.com" },
+				{ "name":"Preferred Counsel", "url": "https://preferredcounsel.net" }
+			]
+		}
+	],
+	"2017": [
+		{
+			"type": "Community Leader",
+			"sponsors": [
+				{ "name": "USAA", "url": "" },
+				{ "name": "Valero", "url": "" }
+			]
+		},
+		{
+			"type": "Evening Reception",
+			"sponsors": [
+				{ "name": "Frost Bank", "url": "" }
+			]
+		},
+		{
+			"type": "Matinee Reception",
+			"sponsors": [
+				{ "name": "BKD Forensics", "url": "" }
+			]
+		},
+		{
+			"type": "Producer",
+			"sponsors": [
+				{ "name":"Dykema Cox Smith", "url": "" },
+				{ "name":"Mission Pharmacal", "url": "" }
+			]
+		},
+		{
+			"type": "Pies",
+			"sponsors": [
+				{ "name": "Lone Star Bakery", "url": "" }
+			]
+		},
+		{
+			"type": "Playbill",
+			"sponsors": [
+				{ "name":"Jackson Walker", "url": "" },
+				{ "name":"Norton Rose Fulbright", "url": "" },
+				{ "name":"San Antonio Bar Association", "url": "" }
+			]
+		},
+		{
+			"type": "Costume and Backdrops",
+			"sponsors": [
+				{ "name": "Cubeta Clarke", "url": "" },
+				{ "name":"Whataburger", "url": "" }
+			]
+		},
+		{
+			"type": "Table",
+			"sponsors": [
+				{ "name":"Andeavor", "url": "" },
+				{ "name": "Attorneys of the Ariel House", "url": "" },
+				{ "name":"Brad Carson | Kruger Carson PLLC", "url": "" },
+				{ "name": "Cokinos Young", "url": "" },
+				{ "name":"Cronin PLLC", "url": "" },
+				{ "name":"CPS Energy", "url": "" },
+				{ "name": "Sara E. Dysart", "url": "" },
+				{ "name":"Haynes & Boone", "url": "" },
+				{ "name":"HEB", "url": "" },
+				{ "name":"Hoblit Darling Ralls Hernandez & Hudlow LLP", "url": "" },
+				{ "name":"Judges for CJP", "url": "" },
+				{ "name": "Kilpatrick Townsend", "url": "" },
+				{ "name": "Langley & Banack", "url": "" },
+				{ "name": "LexisNexis", "url": "" },
+				{ "name": "NuStar Energy", "url": "" },
+				{ "name":"Ogletree Deakins", "url": "" },
+				{ "name": "Rackspace", "url": "" },
+				{ "name": "Rackspace", "url": "" },
 				{
 					"name": "Rojas Law Firm",
 					"url": "http://aidarojaslaw.com"
@@ -76,15 +176,15 @@
 					"name": "Schmoyer Reinhard",
 					"url": "http://sr-llp.com"
 				},
-				{"name":"Security Service Federal Credit Union"},
-				{"name": "Zachry Group"}
+				{ "name":"Security Service Federal Credit Union", "url": "" },
+				{ "name": "Zachry Group", "url": "" }
 			]
 		},
 		{
 			"type": "1/2 Table",
 			"sponsors": [
-				{"name": "James Avery"},
-				{"name":"SwRI"}
+				{ "name": "James Avery", "url": "" },
+				{ "name":"SwRI", "url": "" }
 			]
 		},
 		{
@@ -120,62 +220,62 @@
 		{
 			"type": "Producer",
 			"sponsors": [
-				{"name":"Mission Pharmacal"},
-				{"name":"San Antonio Bar Association"},
-				{"name":"Dykema Cox Smith"}
+				{ "name":"Mission Pharmacal", "url": "" },
+				{ "name":"San Antonio Bar Association", "url": "" },
+				{ "name":"Dykema Cox Smith", "url": "" }
 			]
 		},
 		{
 			"type": "Playbill",
 			"sponsors": [
-				{"name":"Jackson Walker"},
-				{"name":"Norton Rose Fulbright"}
+				{ "name":"Jackson Walker", "url": "" },
+				{ "name":"Norton Rose Fulbright", "url": "" }
 			]
 		},
 		{
 			"type": "Costume/Backdrops",
 			"sponsors": [
-				{"name": "Cronin PLLC"}
+				{ "name": "Cronin PLLC", "url": "" }
 			]
 		},
 		{
 			"type": "Table",
 			"sponsors": [
-				{"name": "Attorneys of the Ariel House"},
-				{"name": "Brenna & Alex Nava"},
-				{"name":"Brock Person Guerra Reyna"},
-				{"name": "Cokinos, Bosien & Young"},
-				{"name":"CPS Energy"},
-				{"name":"Fisher & Phillips"},
-				{"name":"Haynes & Boone"},
-				{"name":"HEB"},
-				{"name":"ISS Facility Services"},
-				{"name":"Judges for CJP"},
-				{"name": "Kilpatrick Townsend"},
-				{"name": "Langley & Banack"},
-				{"name": "LexisNexis CounselLink"},
-				{"name": "NuStar Energy"},
-				{"name": "Schmoyer Reinhard LLP"},
-				{"name":"Security Service Federal Credit Union"},
-				{"name": "Southwest Research Institute"},
-				{"name":"USAA"},
-				{"name":"Whataburger"},
-				{"name": "Zachry Group"},
-				{"name": "Rackspace"}
+				{ "name": "Attorneys of the Ariel House", "url": "" },
+				{ "name": "Brenna & Alex Nava", "url": "" },
+				{ "name":"Brock Person Guerra Reyna", "url": "" },
+				{ "name": "Cokinos, Bosien & Young", "url": "" },
+				{ "name":"CPS Energy", "url": "" },
+				{ "name":"Fisher & Phillips", "url": "" },
+				{ "name":"Haynes & Boone", "url": "" },
+				{ "name":"HEB", "url": "" },
+				{ "name":"ISS Facility Services", "url": "" },
+				{ "name":"Judges for CJP", "url": "" },
+				{ "name": "Kilpatrick Townsend", "url": "" },
+				{ "name": "Langley & Banack", "url": "" },
+				{ "name": "LexisNexis CounselLink", "url": "" },
+				{ "name": "NuStar Energy", "url": "" },
+				{ "name": "Schmoyer Reinhard LLP", "url": "" },
+				{ "name":"Security Service Federal Credit Union", "url": "" },
+				{ "name": "Southwest Research Institute", "url": "" },
+				{ "name":"USAA", "url": "" },
+				{ "name":"Whataburger", "url": "" },
+				{ "name": "Zachry Group", "url": "" },
+				{ "name": "Rackspace", "url": "" }
 			]
 		},
 		{
 			"type": "1/2 Table",
 			"sponsors": [
-				{"name": "Pulman, Cappuccio, Pullen, Benson & Jones, LLP"}
+				{ "name": "Pulman, Cappuccio, Pullen, Benson & Jones, LLP", "url": "" }
 			]
 		},
 		{
 			"type": "Snacks",
 			"sponsors": [
-				{"name": "HEB"},
-				{"name": "Midnight Rodeo"},
-				{"name": "Kim Tindall & Associates"}
+				{ "name": "HEB", "url": "" },
+				{ "name": "Midnight Rodeo", "url": "" },
+				{ "name": "Kim Tindall & Associates", "url": "" }
 			]
 		}
 	]

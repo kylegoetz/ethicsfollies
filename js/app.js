@@ -13,7 +13,7 @@ var folliesApp = angular.module('folliesApp',
   year: 2018,
   title: 'Shyster Act',
 })
-.constant('sponsorYear', 2017)
+.constant('sponsorYear', 2018)
 .constant('pageBackgrounds', {
   'awards': '/images/bg-awards.jpg',
   'buy': '/images/giveacode.jpg',

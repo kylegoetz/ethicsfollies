@@ -19,7 +19,12 @@
 	        <span ng-if="!sponsor.url || sponsor.url.length == 0">
 	          {{sponsor.name}}
 	        </span>
-	        <a angular-event="External (sponsor): {{sponsor.name}} ({{sponsor.url}})" target="_blank" ng-if="sponsor.url.length > 0" href="{{sponsor.url}}">
+					<a 
+						class="sponsor-url"
+						angular-event="External (sponsor): {{sponsor.name}} ({{sponsor.url}})"
+						target="_blank"
+						ng-if="sponsor.url.length > 0"
+						href="{{sponsor.url}}">
 	          {{sponsor.name}}
 	        </a>
 	      </li>
