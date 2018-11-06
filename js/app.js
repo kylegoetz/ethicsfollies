@@ -14,71 +14,27 @@ var folliesApp = angular.module('folliesApp',
   title: 'Shyster Act',
 })
 .constant('sponsorYear', 2018)
-.constant('pageBackgrounds', {
-  'awards': '/images/bg-awards.jpg',
-  'buy': '/images/giveacode.jpg',
-  'home': '/images/cochran.jpg',
-  'mission': '/images/Tele%20Ethics%20Follies%202012_3071.jpg',
-  'schedule': '/images/ursula-lair.jpg',
-  'sponsors': '/images/dancers.jpg',
-  'visuals': '/images/vita.jpg',
-})
 .run(initApp);
 
 var folliesControllers = angular.module('folliesControllers', []);
 
-folliesApp.config(['$stateProvider', '$analyticsProvider', '$urlRouterProvider', function($stateProvider, $analyticsProvider, $urlRouterProvider){
-  $stateProvider
-    .state('home', {
-      url: '',
-      templateUrl: 'js/controllers/home/home.html',
-      controller: 'HomeCtrl'
-    })
-    .state('sponsors',{
-      url: '/sponsors',
-      templateUrl: 'js/controllers/sponsors/sponsors.html',
-      controller: 'SponsorsCtrl',
-    })
-    .state('visuals',{
-      url: '/visuals',
-      templateUrl: 'js/controllers/visuals/visuals.html',
-      controller: 'VisualsCtrl'
-    })
-    .state('awards',{
-      url: '/awards',
-      templateUrl: 'js/controllers/awards/awards.html',
-      controller: 'AwardsCtrl'
-    })
-    .state('buy',{
-      url: '/buy',
-      templateUrl: 'js/controllers/buy/buy.html',
-      controller: 'BuyCtrl'
-    })
-    .state('contact', {
-      url: '/contact',
-      templateUrl: 'js/controllers/contact/contact.html',
-      controller: 'ContactCtrl'
-    })
-    .state('schedule', {
-      url: '/schedule',
-      templateUrl: 'js/controllers/schedule/schedule.html',
-      controller: 'ScheduleCtrl'
-    })
-    .state('mission', {
-      url: '/mission',
-      templateUrl: 'js/controllers/mission/mission.html',
-      controller: 'MissionCtrl'
-    });
+folliesApp.config(['$stateProvider', '$analyticsProvider', '$urlRouterProvider', '$httpProvider', 'routerStates', function($stateProvider, $analyticsProvider, $urlRouterProvider, $httpProvider, routerStates){
+  
+  routerStates.forEach(function(state) {
+    const { url, templateUrl, controller } = state;
+    $stateProvider.state(state.name, { url, templateUrl, controller });
+  });
 }]);
 
-function initApp($rootScope, $state, pageBackgrounds) {
+function initApp($rootScope, $state, pageBackgrounds, routerStates) {
   //Initialize values
   $rootScope.style = {'background-image': 'url(/images/cochran.jpg)'};
   $rootScope.affixed = false;
 
-  //Load up initial page
-  // var $state = angular.element('[ng-app]').injector().get('$state');
-  // $state.go('');
+  //Load home if no or invalid page requested
+  if(  routerStates.map(function(state) { return state.name; }).indexOf($state.current.name) === -1  ) {
+    $state.go('home');
+  }
 
   //page change updates background
   $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams) {
