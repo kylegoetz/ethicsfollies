@@ -9,9 +9,9 @@ var folliesApp = angular.module('folliesApp',
     'ui.router'
 ])
 .constant('currentShow', {
-  counter: '21st',
-  year: 2018,
-  title: 'Shyster Act',
+  counter: '22nd',
+  year: 2019,
+  title: 'Illegally Blonde',
 })
 .constant('sponsorYear', 2018)
 .constant('pageBackgrounds', {

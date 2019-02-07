@@ -1,35 +1,12 @@
 [
   {
-    "date": "October 9 (12pm)",
-    "event": "Federal Bar",
-    "location": "",
-    "notes": "40 minute preview"
-  },
-  {
-    "date": "October 24 (11am)",
-    "event": "ACC Conference",
-    "location": "Austin",
-    "notes": ""
-  },
-  {
-    "date": "October 30 (9am)",
-    "event": "Bankruptcy Bar",
-    "location": "San Antonio Convention Center",
-    "notes": ""
-  },
-  {
-    "date": "October 31 (2pm)",
+    "date": "October 23 (3pm)",
     "location": "The Empire Theater, San Antonio, Texas",
     "notes": "Full performance"
   },
   {
-    "date": "Nov 1 (7pm)",
+    "date": "October 24 (7pm)",
     "location": "The Empire Theater, San Antonio, Texas",
     "notes": "Full performance"
-  },
-  {
-    "date": "Nov 15 (6pm)",
-    "location": "New Jersey",
-    "notes": "Adapted version"
   }
 ]
