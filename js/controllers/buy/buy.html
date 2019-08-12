@@ -7,10 +7,14 @@
   </p>
   <p ng-if="registration.open">
     Individual registration and $1,500 table sponsorships (for eight) are
-    available online. Click either
-    day for ${{registration.nonCleFee}} non-CLE registration.
-    If you register for CLE and attend, you will earn {{registration.cleHours}}
-    hours of CLE credit.
+    available online. If you register for CLE and attend, you will earn {{registration.cleHours}}
+    hours of CLE credit. If you register by {{registration.early.date}} then
+    you will receive a ${{registration.early.discount}} discount.
+  </p>
+  <p ng-if="registration.open">
+    To attend the show without receiving CLE credit, you can buy a <em>Friends and Family</em>
+    ticket for ${{registration.nonCleFee}}. If you register by {{registration.early.date}}
+    then you will receive a ${{registration.early.discount}} discount.
   </p>
   <div class="showGroup" ng-if="registration.open">
 	  <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box>
