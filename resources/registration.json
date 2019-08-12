@@ -3,10 +3,10 @@
   "cleHours": 2,
   "early": {
 		"date": "October 4, 2019",
-		"discount": 10
+		"discount": 10,
+		"nonCleDiscount": 5
   },
   "nonCleFee": 25,
-	"nonCleEarlyBirdDiscount": 5,
   "openDate": "July 31, 2019",
   "shows": [
 	{
