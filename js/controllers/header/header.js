@@ -58,7 +58,7 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
         $state.go('home');
         break;
       case 'sponsors':
-        $state.go('sponsors', {year:'2015'});
+        $state.go('sponsors', {year:'2018'});
         break;
       case 'about.visuals':
         $state.go('visuals');
