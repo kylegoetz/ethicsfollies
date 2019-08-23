@@ -349,7 +349,7 @@ angled-navbar {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no;
-	background-position: 0 100%;
+	background-position: 0 0;
 }
 
 .triple-column {
