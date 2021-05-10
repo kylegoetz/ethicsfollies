@@ -8,6 +8,16 @@ folliesApp.controller('AwardsCtrl', function($scope, $rootScope) {
 
   $scope.awards = [
     {
+      year: 2019,
+      inhouse: 'Alex Miller (Valero)',
+      firm: 'John Weber, Jr. (Norton Rose Fulbright)',
+    },
+    {
+      year: 2018,
+      inhouse: 'Mike Gibbs (Whataburger Restaurants)',
+      firm: 'Annalyn Smith (Schmoyer Reinhard, LLP)',
+    },
+    {
       year: 2017,
       inhouse: 'Steve Waters (USAA Realco)',
       firm: 'Sara Dysart'

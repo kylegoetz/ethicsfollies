@@ -9,11 +9,11 @@ var folliesApp = angular.module('folliesApp',
     'ui.router'
 ])
 .constant('currentShow', {
-  counter: '22nd',
-  year: 2019,
-  title: 'Illegally Blonde',
+  counter: '23rd',
+  year: 2021,
+  title: 'The Princess Bribe',
 })
-.constant('sponsorYear', 2018)
+.constant('sponsorYear', 2021)
 .constant('pageBackgrounds', {
   'awards': '/images/bg-awards.jpg',
   'buy': '/images/giveacode.jpg',
