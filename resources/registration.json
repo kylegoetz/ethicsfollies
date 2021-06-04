@@ -1,27 +1,27 @@
 {
-  "open": false,
+  "open": true,
   "cleHours": 2,
   "early": {
-		"date": "TBD",
+		"date": "October 27, 2021",
 		"discount": 10,
 		"nonCleDiscount": 5
   },
   "nonCleFee": 25,
-  "openDate": "TBD",
+  "openDate": "June 3, 2021",
   "shows": [
 	{
 	  "index": 1,
 	  "date": "November 17, 2021",
 	  "time": "3–5pm",
-	  "url": "https://www.regonline.com/builder/site/?eventid=2568310",
+	  "url": "https://cvent.me/GzlE3w",
 	  "cleFee": 75
 	},
 	{
 	  "index": 2,
 	  "date": "November 18, 2021",
 	  "time": "7–9:30pm",
-	  "url": "https://www.regonline.com/ethicsfolliesIllegallyBlondeEvening",
-	  "cleFee": 95
+	  "url": "https://cvent.me/xkbQY2",
+	  "cleFee": 85
 	}
   ]
 }

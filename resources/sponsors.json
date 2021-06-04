@@ -1,5 +1,57 @@
 {
-	"2021": [],
+	"2021": [
+		{
+			"type": "Producer",
+			"sponsors": [
+				{
+					"name": "Dykema",
+					"url": "https://dykema.com"
+				}
+			]
+		},
+		{
+			"type": "Playbill",
+			"sponsors": [
+				{
+					"name": "Jackson Walker",
+					"url": "https://jw.com"
+				},
+				{
+					"name": "Norton Rose Fulbright",
+					"url": "https://nortonrosefulbright.com"
+				}
+			]
+		},
+		{
+			"type": "Table",
+			"sponsors": [
+				{
+					"name": "Haynes and Boone",
+					"url": "https://haynesboone.com"
+				},
+				{
+					"name": "Kilpatrick Townsend",
+					"url": "https://kilpatricktownsend.com"
+				},
+				{
+					"name": "Langley & Banack",
+					"url": "https://langleybanack.com"
+				},
+				{
+					"name": "LexisNexis CounselLink",
+					"url": "https://counsellink.com"
+				},
+				{
+					"name": "Ogletree Deakins",
+					"url": "https://ogletreedeakins.com"
+				},
+				{
+					"name": "RSM",
+					"url": "https://rsmus.com"
+				}
+			]
+		}
+	],
 	"2018": [
 		{
 			"type": "Community Leader",
