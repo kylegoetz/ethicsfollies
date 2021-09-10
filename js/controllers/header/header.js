@@ -48,7 +48,7 @@ folliesApp.controller('HeaderCtrl',['$rootScope', '$scope', '$location', '$state
       ]
     },
     {
-      title: 'Registration & DVDs',
+      title: 'Buy Tickets',
       action: 'buy'
     }
   ];

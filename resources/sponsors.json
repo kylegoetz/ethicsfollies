@@ -1,6 +1,19 @@
 {
 	"2021": [
 		{
+			"type": "Community Leader",
+			"sponsors": [
+				{
+					"name": "USAA",
+					"url": "https://usaa.com"
+				},
+				{
+					"name": "Valero",
+					"url": "https://valero.com"
+				}
+			]
+		},
+		{
 			"type": "Producer",
 			"sponsors": [
 				{
@@ -26,8 +39,16 @@
 			"type": "Table",
 			"sponsors": [
 				{
+					"name": "Frost Bank",
+					"url": "https://frostbank.com"
+				},
+				{
 					"name": "Haynes and Boone",
 					"url": "https://haynesboone.com"
+				},
+				{
+					"name": "HEB",
+					"url": "https://heb.com"
 				},
 				{
 					"name": "Kilpatrick Townsend",
@@ -48,6 +69,19 @@
 				{
 					"name": "RSM",
 					"url": "https://rsmus.com"
+				},
+				{
+					"name": "Southwest Research Institute",
+					"url": "https://swri.org"
+				}
+			]
+		},
+		{
+			"type": "Half Table",
+			"sponsors": [
+				{
+					"name": "James Avery",
+					"url": "https://jamesavery.com"
 				}
 			]
 		}

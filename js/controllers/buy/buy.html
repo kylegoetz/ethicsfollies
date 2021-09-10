@@ -12,9 +12,10 @@
     you will receive a ${{registration.early.discount}} discount.
   </p>
   <p ng-if="registration.open">
-    To attend the show without receiving CLE credit, you can buy a <em>Friends and Family</em>
+    To attend the show without receiving CLE credit, you can buy a <strong>Friends and Family</strong>
     ticket for ${{registration.nonCleFee}}. If you register by {{registration.early.date}}
-    then you will receive a ${{registration.early.nonCleDiscount}} discount.
+    then you will receive a ${{registration.early.nonCleDiscount}} discount. To purchase CLE or Friends &amp; Family
+    tickets, choose your date of attendance below:
   </p>
   <div class="showGroup" ng-if="registration.open">
 	  <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box>
@@ -29,6 +30,6 @@
     to contact by e-mail.
   </p>
   <p>
-    You can read more about sponsorship and its benefits by clicking <a analytics-event="Download: Sponsorship brochure" target="_blank" href="resources/sponsorship.pdf">here</a>.
+    You can read more about sponsorship and its benefits by clicking <a analytics-event="Download: Sponsorship brochure" target="_blank" href="resources/sponsorship.docx">here</a>.
   </p>
 </div>
