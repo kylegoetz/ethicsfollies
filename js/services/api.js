@@ -1,37 +1,30 @@
-folliesApp.service('apiService',['$http', '$q', function($http, $q){
-  return({
-	  getRegistrationInfo: getRegistrationInfo,
-    getSponsors: getSponsors
-  });
+folliesApp.service("apiService", [
+  "$http",
+  "$q",
+  function ($http, $q) {
+    const getEthicalLifeRecipients = () =>
+      $http.get("/resources/ethical-life-winners.json").then(handleSuccess);
 
-	function getRegistrationInfo() {
-		return $http.get('/resources/registration.json')
-		.then(function(response){
-			return response.data;
-		});
-	}
+    return {
+      getRegistrationInfo,
+      getSponsors,
+      getEthicalLifeRecipients,
+    };
 
-  function getSponsors(year) {
-    return $http.get('/resources/sponsors.json')
-    .then(function(response) {
-        return response.data[year];
-    });
-  }
-
-  function handleSuccess(response) {
-    return(  response.data  );
-  }
-
-  function handleError(response) {
-    /*
-     * The response should be returned in a normalized format. However,
-     * if the request was not handled by the server (or what not handles
-     * properly - ex. server error), then we may have to normalize it on
-     * our end, as best we can.
-     */
-    if(  !angular.isObject(response.data) || !response.data.message  ) {
-      return(  $q.reject('An unknown error occurred')  );
+    function getRegistrationInfo() {
+      return $http
+        .get("/resources/registration.json")
+        .then(handleSuccess);
     }
-    return(  $q.reject(response.data.message)  );
-  }
-}]);
+
+    function getSponsors(year) {
+      return $http.get("/resources/sponsors.json").then(function (response) {
+        return response.data[year];
+      });
+    }
+
+    function handleSuccess(response) {
+      return response.data;
+    }
+  },
+]);

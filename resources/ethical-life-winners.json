@@ -1,0 +1,72 @@
+[
+    {
+        "firm": "",
+        "inhouse": "",
+        "year": 2021
+    },
+    {
+        "firm": null,
+        "inhouse": null,
+        "year": 2020
+    },
+    {
+        "firm": "John Weber, Jr. (Norton Rose Fulbright)",
+        "inhouse": "Alex Miller (Valero)",
+        "year": 2019
+    },
+    {
+        "firm": "Annalyn Smith (Schmoyer Reinhard, LLP)",
+        "inhouse": "Mike Gibbs (Whataburger Restaurants)",
+        "year": 2018
+    },
+    {
+        "firm": "Sara Dysart",
+        "inhouse": "Steve Waters (USAA Realco)",
+        "year": 2017
+    },
+    {
+        "firm": "Andrew L. Kerr",
+        "inhouse": "Colleen M. Goff (posthumous)",
+        "year": 2016
+    },
+    {
+        "firm": "Dan Webster (Dykema Cox Smith)",
+        "inhouse": "Carlos Pe\u00f1a (Pioneer Energy Services Corp.)",
+        "year": 2015
+    },
+    {
+        "firm": "Charles L. Smith (Jackson Walker)",
+        "inhouse": "Rebecca Simmons (KCI)",
+        "year": 2014
+    },
+    {
+        "firm": "Allan K. DuBois",
+        "inhouse": "William B. F. Baumann",
+        "year": 2013
+    },
+    {
+        "firm": "Steve Fogle (Jackson Walker)",
+        "inhouse": "Stan McCormick (Frost Bank)",
+        "year": 2012
+    },
+    {
+        "firm": "James L. \"Rocky\" Walker",
+        "inhouse": "Security Service Credit Union",
+        "year": 2011
+    },
+    {
+        "firm": "Haynes & Boone/Lamont Jefferson",
+        "inhouse": "Valero Energy",
+        "year": 2010
+    },
+    {
+        "firm": "George Kampmann",
+        "inhouse": "USAA",
+        "year": 2009
+    },
+    {
+        "firm": "George Spencer, Sr.",
+        "inhouse": "NuStar",
+        "year": 2008
+    }
+]
