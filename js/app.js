@@ -10,10 +10,10 @@ var folliesApp = angular.module('folliesApp',
 ])
 .constant('currentShow', {
   counter: '23rd',
-  year: 2021,
+  year: 2022,
   title: 'The Princess Bribe',
 })
-.constant('sponsorYear', 2021)
+.constant('sponsorYear', 2022)
 .constant('pageBackgrounds', {
   'awards': '/images/bg-awards.jpg',
   'buy': '/images/giveacode.jpg',

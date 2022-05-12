@@ -1,27 +1,27 @@
 {
-  "open": false,
+  "open": true,
   "cleHours": 2,
   "early": {
-		"date": "October 27, 2021",
+		"date": "October 3, 2022",
 		"discount": 10,
 		"nonCleDiscount": 5
   },
   "nonCleFee": 25,
-  "openDate": "June 3, 2021",
+  "openDate": "May 12, 2022",
   "shows": [
 	{
 	  "index": 1,
-	  "date": "November 17, 2021",
+	  "date": "October 19, 2022",
 	  "time": "3–5pm",
-	  "url": "https://cvent.me/GzlE3w",
+	  "url": "https://cvent.me/18qWK3",
 	  "cleFee": 75
 	},
 	{
 	  "index": 2,
-	  "date": "November 18, 2021",
+	  "date": "October 20, 2022",
 	  "time": "7–9:30pm",
-	  "url": "https://cvent.me/xkbQY2",
-	  "cleFee": 85
+	  "url": "https://cvent.me/8rWA0G",
+	  "cleFee": 95
 	}
   ]
 }

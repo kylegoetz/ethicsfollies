@@ -1,4 +1,74 @@
 {
+	"2022": [
+		{
+			"type": "Community Leader",
+			"sponsors": [
+				{
+					"name": "Valero",
+					"url": "https://valero.com"
+				}
+			]
+		},
+		{
+			"type": "Producer",
+			"sponsors": [
+				{
+					"name": "Dykema",
+					"url": "https://dykema.com"
+				}
+			]
+		},
+		{
+			"type": "Playbill",
+			"sponsors": [
+				{
+					"name": "Jackson Walker",
+					"url": "https://jw.com"
+				},
+				{
+					"name": "Norton Rose Fulbright",
+					"url": "https://nortonrosefulbright.com"
+				}
+			]
+		},
+		{
+			"type": "Table",
+			"sponsors": [
+				{
+					"name": "Chasnoff Stribling",
+					"url": "https://www.chasnoffstribling.com/"
+				},
+				{
+					"name": "Cubeta Law Group",
+					"url": "https://www.cubetalaw.com"
+				},
+				{
+					"name": "Haynes and Boone",
+					"url": "https://haynesboone.com"
+				},
+				{
+					"name": "Kilpatrick Townsend",
+					"url": "https://kilpatricktownsend.com"
+				},
+				{
+					"name": "Langley & Banack",
+					"url": "https://langleybanack.com"
+				},
+				{
+					"name": "LexisNexis CounselLink",
+					"url": "https://councillink.com"
+				},
+				{
+					"name": "Ogletree Deakins",
+					"url": "https://ogletreedeakins.com"
+				},
+				{
+					"name": "RSM",
+					"url": "https://rsmus.com"
+				}
+			]
+		}
+	],
 	"2021": [
 		{
 			"type": "Community Leader",
