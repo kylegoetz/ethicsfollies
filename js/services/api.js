@@ -1,14 +1,17 @@
 folliesApp.service("apiService", [
   "$http",
   "$q",
-  function ($http, $q) {
+  function ($http) {
     const getEthicalLifeRecipients = () =>
       $http.get("/resources/ethical-life-winners.json").then(handleSuccess);
 
+    const getShowList = () => $http.get('/resources/shows.json').then(handleSuccess);
+
     return {
-      getRegistrationInfo,
-      getSponsors,
       getEthicalLifeRecipients,
+      getRegistrationInfo,
+      getShowList,
+      getSponsors,
     };
 
     function getRegistrationInfo() {

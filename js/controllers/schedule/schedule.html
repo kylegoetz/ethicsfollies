@@ -25,3 +25,18 @@
     </tr>
   </tbody>
 </table>
+<h4>Previous Shows</h4>
+<table class="awards" style="width:100%">
+  <thead>
+    <tr>
+      <td>Year</td>
+      <td>Title</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="show in previousShows">
+      <td ng-bind="show.year" style="white-space:nowrap"></td>
+      <td ng-bind="show.name" style="white-space:nowrap"></td>
+    </tr>
+  </tbody>
+</table>
