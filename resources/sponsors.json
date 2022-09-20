@@ -28,6 +28,19 @@
 				{
 					"name": "Norton Rose Fulbright",
 					"url": "https://nortonrosefulbright.com"
+				},
+				{
+					"name": "San Antonio Bar Foundation",
+					"url":  "https://sanantoniobar.org"
+				}
+			]
+		},
+		{
+			"type": "Costume and Backdrop",
+			"sponsors": [
+				{
+					"name": "Frost Bank",
+					"url": "https://frostbank.com"
 				}
 			]
 		},
@@ -35,16 +48,35 @@
 			"type": "Table",
 			"sponsors": [
 				{
-					"name": "Chasnoff Stribling",
+					"name": "Chasnoff Mungia Valkenaar Pepping & Stribling, LLP",
 					"url": "https://www.chasnoffstribling.com/"
+				},
+				{
+					"name": "Conservant Capital"
+				},
+				{
+					"name": "CPS Energy",
+					"url": "https://cpsenergy.com"
 				},
 				{
 					"name": "Cubeta Law Group",
 					"url": "https://www.cubetalaw.com"
 				},
 				{
+					"name": "Doggett Law Firm",
+					"url": "http://www.doggettlawfirm.com"
+				},
+				{
+					"name": "Germer PLLC",
+					"url": "https://germer.com"
+				},
+				{
 					"name": "Haynes and Boone",
 					"url": "https://haynesboone.com"
+				},
+				{
+					"name": "James Avery",
+					"url": "https://jamesavery.com"
 				},
 				{
 					"name": "Kilpatrick Townsend",
@@ -59,12 +91,32 @@
 					"url": "https://councillink.com"
 				},
 				{
+					"name": "NuStar Energy",
+					"url": "https://nustarenergy.com"
+				},
+				{
 					"name": "Ogletree Deakins",
 					"url": "https://ogletreedeakins.com"
 				},
 				{
+					"name": "Plunk Smith",
+					"url": "https://plunksmith.com"
+				},
+				{
 					"name": "RSM",
 					"url": "https://rsmus.com"
+				},
+				{
+					"name": "Schmoyer Reinhard LLP",
+					"url": "https://sr-llp.com"
+				},
+				{
+					"name": "Southwest Research Institute",
+					"url": "https://swri.org"
+				},
+				{
+					"name": "Whataburger",
+					"url": "https://whataburger.com"
 				}
 			]
 		}
