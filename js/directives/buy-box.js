@@ -19,7 +19,7 @@
                 <p ng-if="isAwardNight">
                     With <em>Lee Cusenbary Ethical Life Awards</em> and a catered, open bar networking reception.
                 </p>
-                CLE fee: $<span ng-bind="cleFee"/> <a class="btn btn-default btn-sm" href="{{url}}">Register</a>
+                <a class="btn btn-default btn-sm" href="{{url}}">Register</a>
             </div>`,
       scope: {
         date: '=',
