@@ -4,6 +4,9 @@
 			"type": "Community Leader",
 			"sponsors": [
 				{
+					"name": "USAA"
+				},
+				{
 					"name": "Valero",
 					"url": "https://valero.com"
 				}
@@ -36,7 +39,7 @@
 			]
 		},
 		{
-			"type": "Costume and Backdrop",
+			"type": "Costume and Backdrops",
 			"sponsors": [
 				{
 					"name": "Frost Bank",
@@ -67,6 +70,9 @@
 					"url": "http://www.doggettlawfirm.com"
 				},
 				{
+					"name": "FORVIS"
+				},
+				{
 					"name": "Germer PLLC",
 					"url": "https://germer.com"
 				},
@@ -79,10 +85,6 @@
 					"url": "https://heb.com"
 				},
 				{
-					"name": "James Avery",
-					"url": "https://jamesavery.com"
-				},
-				{
 					"name": "Kilpatrick Townsend",
 					"url": "https://kilpatricktownsend.com"
 				},
@@ -93,6 +95,9 @@
 				{
 					"name": "LexisNexis CounselLink",
 					"url": "https://councillink.com"
+				},
+				{
+					"name": "Norton Rose Fulbright"
 				},
 				{
 					"name": "NuStar Energy",
@@ -123,8 +128,28 @@
 					"url": "https://swri.org"
 				},
 				{
+					"name": "Texas Suits"
+				},
+				{
 					"name": "Whataburger",
 					"url": "https://whataburger.com"
+				}
+			]
+		},
+		{
+			"type": "Half-Table",
+			"sponsors": [
+				{
+					"name": "James Avery",
+					"url": "https://jamesavery.com"
+				}
+			]
+		},
+		{
+			"type": "Snacks",
+			"sponsors": [
+				{
+					"name": "Kim Tindall & Associates"
 				}
 			]
 		}
