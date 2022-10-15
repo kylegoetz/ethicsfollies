@@ -4,7 +4,8 @@
 			"type": "Community Leader",
 			"sponsors": [
 				{
-					"name": "USAA"
+					"name": "USAA",
+					"url": "https://usaa.com"
 				},
 				{
 					"name": "Valero",
@@ -70,7 +71,8 @@
 					"url": "http://www.doggettlawfirm.com"
 				},
 				{
-					"name": "FORVIS"
+					"name": "FORVIS",
+					"url": "https://forvis.com"
 				},
 				{
 					"name": "Germer PLLC",
@@ -97,7 +99,8 @@
 					"url": "https://councillink.com"
 				},
 				{
-					"name": "Norton Rose Fulbright"
+					"name": "Norton Rose Fulbright",
+					"url": "https://nortonrosefulbright.com"
 				},
 				{
 					"name": "NuStar Energy",
@@ -149,7 +152,8 @@
 			"type": "Snacks",
 			"sponsors": [
 				{
-					"name": "Kim Tindall & Associates"
+					"name": "Kim Tindall & Associates",
+					"url": "https://kimtindallandassociates.com"
 				}
 			]
 		}
