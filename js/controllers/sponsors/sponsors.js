@@ -14,8 +14,4 @@ function SponsorsCtrl($rootScope,$scope,apiService, sponsorYear) {
         $scope.sponsors = data;
       });
   }
-
-  function applySponsors(data) {
-    $scope.sponsors = data;
-  }
 }
