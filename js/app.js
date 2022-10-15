@@ -1,3 +1,5 @@
+const YEAR = 2022;
+
 var folliesApp = angular.module('folliesApp',
   [
     'ui.bootstrap',
@@ -10,10 +12,10 @@ var folliesApp = angular.module('folliesApp',
 ])
 .constant('currentShow', {
   counter: '23rd',
-  year: 2022,
+  year: YEAR,
   title: 'The Princess Bribe',
 })
-.constant('sponsorYear', 2022)
+.constant('sponsorYear', YEAR)
 .constant('pageBackgrounds', {
   'awards': '/images/bg-awards.jpg',
   'buy': '/images/giveacode.jpg',
@@ -68,6 +70,11 @@ folliesApp.config(['$stateProvider', '$analyticsProvider', '$urlRouterProvider',
       url: '/mission',
       templateUrl: 'js/controllers/mission/mission.html',
       controller: 'MissionCtrl'
+    })
+    .state('directors-notes', {
+      url: '/directors-notes',
+      templateUrl: `js/controllers/directors-notes/${YEAR}.html`,
+      controller: 'DirectorsNotesCtrl',
     });
 }]);
 

@@ -547,3 +547,26 @@ a.sponsor-url {
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
+
+.good-formatting-full-width {
+	margin: 20%;
+	font-size: 1.2em;
+}
+
+.good-formatting-full-width > p {
+	margin-bottom: 2em;
+}
+
+.good-formatting-full-width > blockquote {
+	margin-top: -1em;
+	background-color: rgba(255, 255, 255, .5);
+	color: #333;
+}
+
+.good-formatting-full-width blockquote {
+	font-size: 1em;
+}
+
+.good-formatting-full-width blockquote > .rule-cite {
+	font-weight: bold;
+}
