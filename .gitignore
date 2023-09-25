@@ -10,3 +10,4 @@ npm-debug.log
 php.ini
 webformmailer.php
 */.DS_Store
+.idea
