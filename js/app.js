@@ -1,4 +1,4 @@
-const YEAR = 2022;
+const YEAR = 2023;
 
 var folliesApp = angular.module('folliesApp',
   [
@@ -11,10 +11,11 @@ var folliesApp = angular.module('folliesApp',
     'ui.router'
 ])
 .constant('currentShow', {
-  counter: '23rd',
+  counter: '24th',
   year: YEAR,
-  title: 'The Princess Bribe',
+  title: 'The Best of \'The Princess Bribe\'',
 })
+.constant('year', YEAR)
 .constant('sponsorYear', YEAR)
 .constant('pageBackgrounds', {
   'awards': '/images/bg-awards.jpg',
@@ -24,6 +25,7 @@ var folliesApp = angular.module('folliesApp',
   'schedule': '/images/ursula-lair.jpg',
   'sponsors': '/images/dancers.jpg',
   'visuals': '/images/vita.jpg',
+  'directors-notes': '/images/directors-notes.jpg',
 })
 .run(initApp);
 

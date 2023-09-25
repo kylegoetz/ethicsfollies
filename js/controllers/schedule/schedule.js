@@ -3,8 +3,9 @@
     .module('folliesApp')
     .controller('ScheduleCtrl', schedule);
 
-  function schedule($scope, $http, currentShow, apiService) {
+  function schedule($scope, $http, currentShow, apiService, year) {
     $scope.previousShows = [];
+    $scope.year = year;
 
     $http.get('/resources/schedule.json')
     .then(schedule => {
@@ -15,5 +16,6 @@
       $scope.previousShows = shows.filter(show => show.year !== currentShow.year).sort((a, b) => b.year - a.year);
       $scope.$apply();
     });
+
   }
 })();

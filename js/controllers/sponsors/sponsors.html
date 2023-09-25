@@ -1,34 +1,36 @@
 <div ng-controller="SponsorsCtrl">
 	<h3>Sponsors</h3>
-	<p>Thank you to the {{year}} Ethics Follies sponsors for their generous
-    support making ACC&rsquo;s ethics conference possible. Our sponsors believe that
-    "good ethics is good for business"!
-  </p>
-	<p>
-		You can read more about sponsorship and its benefits by clicking <a analytics-event="Download: Sponsorship brochure" target="_blank" href="resources/sponsorship.docx">here</a>.
-	</p>
-	<div class="triple-column">
-	  <div ng-repeat="group in sponsors" class="sponsor-group">
-	    <h4>
-	      {{group.type}}
-	      <span ng-if="group.sponsors.length > 1">Sponsors</span>
-	      <span ng-if="group.sponsors.length == 1">Sponsor</span>
-	    </h4>
-	    <ul class="sponsors">
-	      <li ng-repeat="sponsor in group.sponsors">
+	<div>
+		<p>Thank you to the {{year}} Ethics Follies sponsors for their generous
+			support making ACC&rsquo;s ethics conference possible. Our sponsors believe that
+			"good ethics is good for business"!
+		</p>
+		<p>
+			You can read more about sponsorship and its benefits by clicking <a analytics-event="Download: Sponsorship brochure" target="_blank" href="resources/sponsorship.docx">here</a>.
+		</p>
+		<div class="triple-column">
+			<div ng-repeat="group in sponsors" class="sponsor-group">
+				<h4>
+					{{group.type}}
+					<span ng-if="group.sponsors.length > 1">Sponsors</span>
+					<span ng-if="group.sponsors.length == 1">Sponsor</span>
+				</h4>
+				<ul class="sponsors">
+					<li ng-repeat="sponsor in group.sponsors">
 	        <span ng-if="!sponsor.url || sponsor.url.length == 0">
 	          {{sponsor.name}}
 	        </span>
-					<a 
-						class="sponsor-url"
-						angular-event="External (sponsor): {{sponsor.name}} ({{sponsor.url}})"
-						target="_blank"
-						ng-if="sponsor.url.length > 0"
-						href="{{sponsor.url}}">
-	          {{sponsor.name}}
-	        </a>
-	      </li>
-	    </ul>
+						<a
+								class="sponsor-url"
+								angular-event="External (sponsor): {{sponsor.name}} ({{sponsor.url}})"
+								target="_blank"
+								ng-if="sponsor.url.length > 0"
+								href="{{sponsor.url}}">
+							{{sponsor.name}}
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
