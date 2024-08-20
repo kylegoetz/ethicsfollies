@@ -1,4 +1,4 @@
-const YEAR = 2023;
+const YEAR = 2024;
 
 var folliesApp = angular.module('folliesApp',
   [
@@ -11,9 +11,9 @@ var folliesApp = angular.module('folliesApp',
     'ui.router'
 ])
 .constant('currentShow', {
-  counter: '24th',
+  counter: '25th',
   year: YEAR,
-  title: 'The Best of \'The Princess Bribe\'',
+  title: 'TBD',
 })
 .constant('year', YEAR)
 .constant('sponsorYear', YEAR)
