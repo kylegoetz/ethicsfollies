@@ -549,7 +549,7 @@ a.sponsor-url {
 }
 
 .good-formatting-full-width {
-	margin: 20%;
+	margin: 0 20%;
 	font-size: 1.2em;
 }
 
@@ -569,4 +569,8 @@ a.sponsor-url {
 
 .good-formatting-full-width blockquote > .rule-cite {
 	font-weight: bold;
+}
+
+.good-formatting-full-width .rule-desc {
+	text-decoration: underline;
 }
