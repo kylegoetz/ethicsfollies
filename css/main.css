@@ -331,11 +331,10 @@ angled-navbar {
 
 .landing-page {
 	text-align: center;
-	background-color: black;
 	color: white;
 	font-size: 5em;
-  background: url(/images/logos/current-show-poster.jpg) no-repeat center center fixed;
-  -webkit-background-size: contain;
+	background: black url(/images/logos/current-show-poster.png) no-repeat fixed center center;
+	-webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
