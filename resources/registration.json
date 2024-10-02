@@ -1,27 +1,20 @@
 {
-  "open": false,
-  "cleHours": 2,
+  "open": true,
+  "cleHours": 1.5,
   "early": {
-		"date": "October 3, 2022",
+		"date": "September 9, 2024",
 		"discount": 10,
 		"nonCleDiscount": 5
   },
   "nonCleFee": 25,
-  "openDate": "May 12, 2022",
+  "openDate": "September 10, 2024",
   "shows": [
-	{
-	  "index": 1,
-	  "date": "October 19, 2022",
-	  "time": "3–5pm",
-	  "url": "https://cvent.me/18qWK3",
-	  "cleFee": 75
-	},
-	{
-	  "index": 2,
-	  "date": "October 20, 2022",
-	  "time": "7–9:30pm",
-	  "url": "https://cvent.me/8rWA0G",
-	  "cleFee": 95
-	}
+	  {
+		  "index": 1,
+		  "date": "October 29, 2024",
+		  "time": "6:30–9:00pm",
+		  "url": "https://cvent.me/KN5K7E",
+		  "cleFee": 100
+	  }
   ]
 }

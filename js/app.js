@@ -13,7 +13,7 @@ var folliesApp = angular.module('folliesApp',
 .constant('currentShow', {
   counter: '25th',
   year: YEAR,
-  title: 'TBD',
+  title: 'Altered States Bar',
 })
 .constant('year', YEAR)
 .constant('sponsorYear', YEAR)

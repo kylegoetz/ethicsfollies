@@ -1,22 +1,22 @@
 <div ng-controller="BuyCtrl">
   <div class="subheader">
-    <!-- img src="images/logos/current-show-poster.jpg" alt="{{currentShow.year}}: {{currentShow.title}}" style="border: 2px solid white;" /-->
+    <img src="images/logos/current-show-poster.png" alt="{{currentShow.year}}: {{currentShow.title}}" style="border: 2px solid white;">
   </div>
   <p ng-if="!registration.open">
     Please check back soon for information about sponsorships and links to register for the CLE events.
   </p>
   <p ng-if="registration.open">
-    Individual registration and $1,500 table sponsorships (for eight) are
+    Individual registration <!--and $1,500 table sponsorships (for eight) are--> is
     available online. If you register for CLE and attend, you will earn {{registration.cleHours}}
-    hours of CLE credit. If you register by {{registration.early.date}} then
-    you will receive a ${{registration.early.discount}} discount.
+    hours of CLE credit. <!--If you register by {{registration.early.date}} then
+    you will receive a ${{registration.early.discount}} discount.-->
   </p>
-  <p ng-if="registration.open">
+  <!--p ng-if="registration.open">
     To attend the show without receiving CLE credit, you can buy a <strong>Friends and Family</strong>
     ticket for ${{registration.nonCleFee}}. If you register by {{registration.early.date}}
     then you will receive a ${{registration.early.nonCleDiscount}} discount. To purchase CLE or Friends &amp; Family
     tickets, choose your date of attendance below:
-  </p>
+  </p-->
   <div class="showGroup" ng-if="registration.open">
 	  <buy-box ng-repeat="show in registration.shows" date="show.date" time="show.time" url="show.url" cle-fee="show.cleFee" is-award-night="show.index===2"></buy-box>
     <div class="show-panel show-panel-2">
